@@ -13,6 +13,7 @@ The application leverages a robust local database via Room to manage multiple qu
 - **Language:** Kotlin (Android)
 - **Database:** Room Database
 - **UI Toolkit:** Jetpack Compose & Material 3
+- **Background Tasks:** WorkManager for notifications and cooldown management
 - **Data Formats:** JSON for data parsing
 - **Architecture:** MVVM (Model-View-ViewModel)
 
@@ -22,6 +23,7 @@ The application leverages a robust local database via Room to manage multiple qu
 - **Diverse Question Types:** Support for 5 different question formats to thoroughly test general knowledge, including multiple-choice questions (MCQ), precision questions, insertion, sorting, and dynamic sorting.
 - **Subjects & Difficulties:** Features 6 distinct subjects, each structured across 3 progressive difficulty levels.
 - **Shop & Energy System:** Built-in store allowing users to purchase a monthly or annual subscription for unlimited energy/play time, alongside a free mode limited by cooldowns with automated notifications.
+- **Background Notifications (WorkManager):** Automated background workers that send daily reminders to play, alongside real-time alerts when energy is fully restored or when a new energy point is acquired.
 - **Leaderboard & Scoring:** Comprehensive scoring system (awarding up to 1000 points for correct answers, with partial points for approximate or specific question types) combined with a speed-based ranking system where faster completion secures a higher position.
 - **User Profile:** Dedicated profile management allowing users to update their display pseudo.
 - **Advanced Settings:** Customization options allowing users to modify the background wallpaper, font styling, and preferences.
