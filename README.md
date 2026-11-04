@@ -70,7 +70,8 @@ The application leverages a robust local database via Room to manage multiple qu
 │       ├── 📁 values                 # Strings, colors, and styles XML files
 │       └── 📁 xml                    # XML configuration files
 │
-├── 📄 build.gradle                   # Build configuration
+├── 📄 LICENSE                        # License of the project
+├── 📄 build.gradle                   # Build configuration*
 └── 📄 README.md                      # Project documentation
 ```
 
